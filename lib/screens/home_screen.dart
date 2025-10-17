@@ -14,6 +14,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: ([
             Text("Hola Mundo desde mi nuevo HomeScreen"),
+            SizedBox(height: 100),
             Text("Bocata lomo ya"),
           ]),
         ),
