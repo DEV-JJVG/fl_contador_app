@@ -35,8 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: const Icon(Icons.add),
             onPressed: () {
               print("Estoy presionando el botón");
-              contador++;
-              setState(() {});
+              setState(() => contador++);
               print(contador);
             },
           ),
@@ -45,8 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: const Text('Reset'),
             onPressed: () {
               print("Estoy presionando el botón");
-              contador = 0;
-              setState(() {});
+              setState(() => contador = 0);
               print(contador);
             },
           ),
@@ -55,8 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: const Icon(Icons.remove),
             onPressed: () {
               print("Estoy presionando el botón");
-              contador--;
-              setState(() {});
+              setState(() => contador--);
               print(contador);
             },
           ),
